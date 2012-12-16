@@ -9,4 +9,9 @@ FactoryGirl.define do
 			admin true
 		end	
 	end
+
+	factory :micropost do
+		content "Salve Veritate"
+		user
+	end
 end
